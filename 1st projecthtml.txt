@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hypertext Markup Language</title>
+</head>
+<body>
+<h1><mark>Tags in HTML</mark></h1>
+<p><b>Tags:</b> A tag is a special keyword enclosed in angle brackets (&lt; &gt;) that tells the browser how to display content.</p>
+<h2><mark>Elements in HTML</mark></h2>
+<p><b>Elements:</b> In HTML, an element is the complete structure made up of a start tag, content (optional), and an end tag.</p>
+<a href="https://www.w3schools.com/html/">To know more about HTML Elements and Tags</a>
+<h2><mark>List in HTML</mark></h2>
+<ol>
+<li>Ordered list
+<ul style="list-style-type: square;">
+<li>Numbered</li>
+</ul>
+</li>
+<li>Unordered List
+<ul style="list-style-type: square;">
+<li>Bullet Points</li>
+</ul>
+</li>
+<li>Description list
+<ul style="list-style-type: square;">
+<li>Terms and conditions</li>
+</ul>
+</li>
+</ol>
+<table border="1">
+<thead>
+<tr bgcolor="black">
+<th><font color="white">S.no</font></th>
+ <th><font color="white">Tag</font></th>
+<th><font color="white">Description</font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>&lt;h1&gt;</td>
+<td>Defines the largest heading</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&lt;p&gt;</td>
+<td>Defines a paragraph</td> </tr>
+<tr>
+<td>3</td>
+<td>&lt;a&gt;</td>
+<td>Defines a hyperlink</td>
+</tr>
+</tbody>
+</table>
+<fieldset>
+<legend>Form</legend>
+<form>
+<label>Language:</label>
+<input type="text" name="Language"><br><br>
+<label>Method:</label>
+<input type="text" name="Method"><br><br>
+<label>Start date:</label>
+<input type="date" name="StartDate"><br><br>
+<input type="submit" value="Submit"><br><br>
+<form>
+<input type="radio" id="learnt" name="progress" value="learnt">
+<label for="learnt">Learnt well</label><br>
+<input type="radio" name="progress" >
+<label for="workharder">Need to work harder</label>
+</form>
+</form>
+</fieldset>
+</body>
+</html>
